@@ -29,6 +29,8 @@ theme:
     - search.suggest
 extra_css:
   - assets/extra.css
+extra_javascript:
+  - assets/video-embed.js
 plugins:
   # Listing plugins disables the built-in search, so name it explicitly.
   - search
@@ -51,7 +53,6 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
   - Home: index.md
-  - The Story: story.md
   - How It Works: how-it-works.md
   - Gameplay:
       - Rules: gameplay/rules.md
